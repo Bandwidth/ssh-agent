@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: ssh-agent
+  description: GitHub Action to setup `ssh-agent` with a private key
+  annotations:
+    github.com/project-slug: Bandwidth/ssh-agent
+    organization: BW
+    costCenter: Development - Software Infra
+spec:
+  type: GitHub Action
+  owner: github/band-swi
+  lifecycle: Available
